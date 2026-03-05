@@ -28,7 +28,7 @@ export function Projects({ C }: Props) {
           </Reveal>
         ))}
 
-        {/* Browse more */}
+       
         <Reveal delay={240}>
           <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer"
             style={{ textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 16, padding: 32, border: `2px dashed ${C.border}`, borderRadius: 6, minHeight: 200, transition: "border-color .2s" }}

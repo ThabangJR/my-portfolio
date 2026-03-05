@@ -16,27 +16,27 @@ export function Hero({ C, onNav }: Props) {
       id="hero"
       style={{ minHeight: "100vh", padding: "clamp(90px,12vw,140px) clamp(20px,5vw,80px) 80px", position: "relative", overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "center", background: C.bg }}
     >
-      {/* Ruled lines */}
+     
       {[...Array(14)].map((_, i) => (
         <div key={i} style={{ position: "absolute", left: 0, right: 0, top: `${(i + 1) * 6.5}%`, height: 1, background: "rgba(28,25,23,0.05)" }} />
       ))}
 
-      {/* Decorative ring */}
+ 
       <div style={{ position: "absolute", right: "-8%", top: "50%", transform: "translateY(-50%)", width: "min(50vw,480px)", height: "min(50vw,480px)", borderRadius: "50%", border: `2px solid ${C.border}`, pointerEvents: "none" }} />
 
-      {/* Floating stamp */}
+      {/* Floating stamp anim */}
       <div className="hero-stamp">
         <Stamp color={C.terra} rotate={12} size={108}>AVAILABLE{"\n"}FOR HIRE{"\n"}</Stamp>
       </div>
 
-      {/* Spinning star */}
+      {/* Spinning star anim */}
       <div style={{ position: "absolute", bottom: 120, right: "20%", animation: "spin-slow 12s linear infinite" }}>
         <Star size={36} color={C.forest} />
       </div>
 
       {/* Content */}
       <div style={{ position: "relative", zIndex: 1, maxWidth: 900 }}>
-        {/* Eyebrow */}
+      
         <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 20 }}>
           <div style={{ width: 8, height: 8, borderRadius: "50%", background: C.forest, animation: "pulse-ring 2s infinite", flexShrink: 0 }} />
           <span style={{ fontFamily: "'Instrument Sans', sans-serif", fontSize: "clamp(0.65rem,2vw,0.78rem)", fontWeight: 700, letterSpacing: "0.16em", textTransform: "uppercase", color: C.forest }}>

@@ -11,7 +11,7 @@ export function Footer() {
   return (
     <footer style={{ background: "#111", padding: "20px clamp(20px,5vw,48px)", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: 12 }}>
       <span style={{ fontFamily: "'Playfair Display', serif", fontStyle: "italic", fontSize: "0.8rem", color: "rgba(255,255,255,0.28)" }}>
-        &copy; 2025 Thabang Mohale — Midrand, South Africa
+        &copy; 2026 Thabang Mohale
       </span>
       <div style={{ display: "flex", gap: 24, flexWrap: "wrap" }}>
         {links.map(([href, label]) => (

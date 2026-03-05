@@ -36,7 +36,7 @@ export function About({ C }: Props) {
 
         <Reveal delay={120}>
           <blockquote style={{ fontFamily: "'Playfair Display', serif", fontStyle: "italic", fontSize: "clamp(1.1rem,3vw,1.7rem)", fontWeight: 400, lineHeight: 1.55, color: C.ink, borderLeft: `3px solid ${C.terra}`, paddingLeft: 20, marginBottom: 28 }}>
-            "I'm a developer from Midrand who believes the best software quietly solves the problem — and the best code is the code that ships."
+            "I'm a developer who believes the best software quietly solves the problem — and the best code is the code that ships."
           </blockquote>
           <p style={{ fontSize: "0.96rem", lineHeight: 1.85, color: C.muted, marginBottom: 20 }}>
             Diploma in Systems Development (NQF Level 6) from Boston City Campus — 364 credits across software engineering, database design, and web development.

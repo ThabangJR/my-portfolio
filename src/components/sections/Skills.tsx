@@ -26,7 +26,7 @@ export function Skills({ C, dark }: Props) {
         </div>
       </Reveal>
 
-      {/* Currently Learning */}
+      {/* Currently Learning  section*/}
       <Reveal delay={140}>
         <div style={{ borderTop: `1px solid ${C.border}`, marginTop: 52, paddingTop: 44 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 24 }}>

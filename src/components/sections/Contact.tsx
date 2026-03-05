@@ -28,7 +28,7 @@ export function Contact({ C, showToast }: Props) {
 
   return (
     <section id="contact" className="pad" style={{ background: "#1C1917", position: "relative", overflow: "hidden" }}>
-      {/* Ghost watermark */}
+     
       <div style={{ position: "absolute", bottom: -30, right: -10, fontFamily: "'Playfair Display', serif", fontWeight: 900, fontSize: "clamp(8rem,20vw,18rem)", color: "transparent", WebkitTextStroke: "1px rgba(255,255,255,0.04)", lineHeight: 1, userSelect: "none", pointerEvents: "none", letterSpacing: "-0.05em" }}>HI</div>
 
       <div style={{ position: "relative", zIndex: 1 }}>
@@ -41,7 +41,7 @@ export function Contact({ C, showToast }: Props) {
         </Reveal>
 
         <div className="two-col">
-          {/* Left — links */}
+      
           <div>
             <Reveal>
               <h2 className="sec-h" style={{ color: "#F5F0E8", marginBottom: 24 }}>
@@ -59,7 +59,7 @@ export function Contact({ C, showToast }: Props) {
                     <span style={{ fontSize: "0.86rem", fontWeight: 600, color: "rgba(245,240,232,0.65)", fontFamily: "'Instrument Sans', sans-serif" }}>{val}</span>
                   </a>
                 ))}
-                {/* Copy email */}
+                {/* Copy email funtion */}
                 <div style={{ marginTop: 24 }}>
                   <button onClick={copyEmail}
                     style={{ display: "inline-flex", alignItems: "center", gap: 10, background: "transparent", border: "1px solid rgba(255,255,255,0.15)", color: "rgba(245,240,232,0.5)", padding: "10px 18px", borderRadius: 2, cursor: "pointer", fontFamily: "'Instrument Sans', sans-serif", fontSize: "0.78rem", fontWeight: 600, letterSpacing: "0.08em", transition: "all .2s" }}
@@ -74,7 +74,7 @@ export function Contact({ C, showToast }: Props) {
             </Reveal>
           </div>
 
-          {/* Right — form */}
+     
           <Reveal delay={160}>
             {form.sent ? (
               <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: 300, gap: 20, textAlign: "center" }}>

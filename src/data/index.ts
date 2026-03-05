@@ -5,6 +5,8 @@ const D = "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons";
 export const SKILLS: Skill[] = [
   { name: "JavaScript",     src: `${D}/javascript/javascript-original.svg`, brand: "#F7DF1E" },
   { name: "TypeScript",     src: `${D}/typescript/typescript-original.svg`, brand: "#3178C6" },
+  { name: "Next.js",  src: `${D}/nextjs/nextjs-original.svg`,          brand: "#000"},
+  { name: "Vite", src: `${D}/vitejs/vitejs-original.svg`, brand: "#646CFF" },
   { name: "React.js",       src: `${D}/react/react-original.svg`,           brand: "#61DAFB" },
   { name: "Java",           src: `${D}/java/java-original.svg`,             brand: "#ED8B00" },
   { name: "PHP",            src: `${D}/php/php-original.svg`,               brand: "#8993BE" },
@@ -56,7 +58,7 @@ export const PROCESS: ProcessStep[] = [
   { num: "01", title: "Understand", desc: "I start by deeply understanding the problem — who it affects, why it matters, and what success looks like before a single line of code is written." },
   { num: "02", title: "Design",     desc: "Architecture and UI thinking happen together. I plan database schemas, user flows, and component structure so there are no expensive surprises mid-build." },
   { num: "03", title: "Build",      desc: "I write clean, maintainable code and ship iteratively. Real features, real testing, real deployment — not just local demos." },
-  { num: "04", title: "Refine",     desc: "After launch I listen, measure, and improve. MOHALE TechExperts is a live example of software I continue to evolve." },
+  { num: "04", title: "Refine",     desc: "After launch I listen, measure, and improve. MOHALE TechExperts is a live example of system/s I continue to evolve." },
 ];
 
 export const TIMELINE: TimelineItem[] = [
@@ -72,7 +74,7 @@ export const STATS: StatItem[] = [
   { num: 3,   suffix: "+", label: "Live Projects" },
   { num: 364, suffix: "",  label: "Credits Earned" },
   { num: 10,  suffix: "+", label: "Technologies" },
-  { num: 2,   suffix: "+", label: "Years Building" },
+  { num: 3,   suffix: "+", label: "Years Building" },
 ];
 
 export const NAV_LINKS: [string, string][] = [

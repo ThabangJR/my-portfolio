@@ -20,7 +20,7 @@ export function Timeline({ C }: Props) {
       </Reveal>
 
       <div style={{ position: "relative", maxWidth: 800, margin: "0 auto" }}>
-        {/* Centre line */}
+       
         <div className="tl-line" />
 
         {TIMELINE.map((item, i) => (
