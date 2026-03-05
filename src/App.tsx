@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-
+import { Analytics } from "@vercel/analytics/next";
 import { Loader }        from "@/components/Loader";
 import { Toast }         from "@/components/Toast";
 import { KeyboardHint }  from "@/components/KeyboardHint";
