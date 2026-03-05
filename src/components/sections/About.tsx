@@ -6,10 +6,10 @@ import type { Colors }  from "@/types";
 interface Props { C: Colors; }
 
 const FACTS = [
-  ["Based in",    "Midrand, Gauteng"],
+  ["Based in",    "Ivory Park, Gauteng"],
   ["Status",      "Open to Work"],
   ["Qualification","Diploma, NQF 6"],
-  ["Works as",    "Full-Stack / Frontend Dev"],
+  ["Works as",    "Full-Stack / Frontend Dev/ IT specialist"],
   ["Works from",  "On-site · Hybrid · Remote"],
   ["Speaks",      "English · Zulu · Sotho"],
 ];

@@ -40,7 +40,7 @@ export function Hero({ C, onNav }: Props) {
         <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 20 }}>
           <div style={{ width: 8, height: 8, borderRadius: "50%", background: C.forest, animation: "pulse-ring 2s infinite", flexShrink: 0 }} />
           <span style={{ fontFamily: "'Instrument Sans', sans-serif", fontSize: "clamp(0.65rem,2vw,0.78rem)", fontWeight: 700, letterSpacing: "0.16em", textTransform: "uppercase", color: C.forest }}>
-            Software Developer — Midrand, South Africa
+            Software Developer — Ivory Park, South Africa
           </span>
         </div>
 
