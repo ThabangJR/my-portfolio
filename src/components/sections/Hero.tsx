@@ -26,7 +26,7 @@ export function Hero({ C, onNav }: Props) {
 
       {/* Floating stamp */}
       <div className="hero-stamp">
-        <Stamp color={C.terra} rotate={12} size={108}>AVAILABLE{"\n"}FOR HIRE{"\n"}2025</Stamp>
+        <Stamp color={C.terra} rotate={12} size={108}>AVAILABLE{"\n"}FOR HIRE{"\n"}</Stamp>
       </div>
 
       {/* Spinning star */}
